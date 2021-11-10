@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <!--FONTS-ICON-->
+    <link rel="stylesheet" href="assets/style.css" />
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:ital,wght@1,300&family=Zen+Kaku+Gothic+Antique&display=swap"
+      rel="stylesheet"
+    />
+    <!--SWIPER-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <title>Portfólio(Roger)</title>
+  </head>
+  <body>
+    <header class="header" id="navigation">
+      <a href="#" class="logo">Roger.<span>Webdev</span></a>
+      <nav id="nav">
+        <button id="btn-mobile">
+          <span id="hamburger"></span>
+        </button>
+        <div class="container">
+          <ul id="menu" role="menu">
+            <li>
+              <i class="icon-home_house_icon"> </i
+              ><a class="link" href="#about">Sobre</a>
+            </li>
+            <li>
+              <i class="icon-linkedin-square"></i
+              ><a class="link" href="https://www.linkedin.com/in/rogerio-chaves-5437871a6/" target="_blank">Linkedin</a>
+            </li>
+            <li>
+              <i class="icon-github_icon"></i
+              ><a class="link" href="https://github.com/rogerch93" target="_blank">Github</a>
+            </li>
+            <li>
+              <i class="icon-code"></i
+              ><a class="link" href="#tech">Skills</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="section grid" id="animation">
+        <div class="card1 grid textjs" data-anime="top">
+          <h1>
+            Sejam bem vindos! Aqui você pode conferir minhas habilidades e meus
+            trabalhos como desenvolvedor front/back-end.
+          </h1>
+          <div class="image" data-anime="top" >
+            <img
+              class="programing"
+              src="https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id1224500457?k=20&m=1224500457&s=612x612&w=0&h=LpjdY6okVWiKh8LT_LqcXz53kWaXVf47ThXKwMcCoHI="
+              alt="Códigos"
+              data-anime="top"
+            />
+          </div>
+        </div>
+        
+      </section>
+
+      <div class="divider"></div>
+  
+      <section class="about" id="about">
+        <div class="card grid sobre" data-anime="top">
+          
+          <div class="perfil">
+            <img class="image" src="assets/img/perfilBadLands.jpeg" alt="" />
+          </div>
+          <div>
+            <h2 class="title-sobre">Sobre mim</h2>
+            <p data-anime="rigth">
+              Estudante de Análise e desenvolvimento de sistemas (5º semestre).
+              Fascinado por tecnologia, sempre disposto a aprender mais. Pai de dois filhos
+              atualmente trabalhando em uma industria de auto peças, como operador maquinario
+              tentando uma transição de carreira para area de TI(desenvolvimento web). 
+              No momento estou estudando mais sobre HTML5, CSS3 e Js focado no front-end
+              tenho conhecimento básico com back-end utilizando linguagem C# e seus
+              frameworks, pratiquei muito com padrão MVC construi uma aplicação
+              básica que esta disponível no meu Github. Estou a procura do meu
+              primeiro emprego na área como dev.
+            </p>
+          </div>
+         
+        </div>
+      </section>
+
+      <div class="divider-invert"></div>
+
+      <section id="tech">
+        <div class="card1">
+          <h2 class="title">Skills</h2>
+          <!-- Slider main container -->
+          <div class="swiper">
+            <div class="parallax-bg" data-swiper-parallax="-23%"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="title" data-swiper-parallax="-100">
+                  <img
+                    class="imgicons"
+                    src="assets/icons/317755_badge_html_html5_achievement_award_icon.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="subtitle" data-swiper-parallax="-200">HTML5</div>
+                <div
+                  class="text"
+                  data-swiper-parallax="-300"
+                  data-swiper-parallax-duration="600"
+                >
+                  <p>
+                    HTML uma linguagem de marcação de hipertexto, um bloco básico
+                    mais não menos importante para desenvolvimento de apps ou
+                    simples websites pela web. Esta ferramenta utiliza suas tags
+                    para exibir imagens, textos e também se conectar a outros
+                    sites atraves de seus links.
+                  </p>
+                </div>
+              </div>
+  
+              <div class="swiper-slide">
+                <div class="title" data-swiper-parallax="-100">
+                  <img
+                    class="imgicons"
+                    src="assets/icons/317756_badge_css_css3_achievement_award_icon.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="subtitle" data-swiper-parallax="-200">CSS3</div>
+                <div
+                  class="text"
+                  data-swiper-parallax="-300"
+                  data-swiper-parallax-duration="600"
+                >
+                  <p>
+                    CSS "Folha de cascata" uma linguagem de estilo usada para dar
+                    "vida" ao HTML estilizando textos com cores, imagens com
+                    sombras ou reflexos, podemos usalo até mesmo para fazer
+                    algumas animações basta ter imaginação, em pouco tempo você
+                    consegue fazer algumas animações bem estilizadas. Com o avanço
+                    da tecnologia, hoje em dia o CSS é capaz de fazer muitas
+                    coisas referenciado a estilização
+                  </p>
+                </div>
+              </div>
+  
+              <div class="swiper-slide">
+                <div class="title" data-swiper-parallax="-100">
+                  <img
+                    class="imgicons"
+                    src="assets/icons/4373213_js_logo_logos_icon.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="subtitle" data-swiper-parallax="-200">Js</div>
+                <div
+                  class="text"
+                  data-swiper-parallax="-300"
+                  data-swiper-parallax-duration="600"
+                >
+                  <p>
+                    JavaScript uma linguagem leve, interpretada e baseada em
+                    objetos. Mais connhecida como a linguagem de script para
+                    páginas web, mas não se engane ela também pode ser utilizada
+                    em ambientes sem browser. Com o Node.Js é possivel construir
+                    um back-end de uma WebAplication utilizando JavaScript,
+                    fazendo o uso dela tanto no back-end como front-end.
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="title" data-swiper-parallax="-100">
+                  <img
+                    class="imgicons"
+                    src="assets/icons/Csharp_Logo.png"
+                    alt=""
+                  />
+                </div>
+                <div class="subtitle" data-swiper-parallax="-200">C#</div>
+                <div
+                  class="text"
+                  data-swiper-parallax="-300"
+                  data-swiper-parallax-duration="600"
+                >
+                  <p>
+                    O C# é uma linguagem de programação moderna, orientada a
+                    objeto e de tipo seguro. O C# permite que os desenvolvedores
+                    criem muitos tipos de aplicativos seguros e robustos que são
+                    executados no .NET. O C# tem suas raízes na família de
+                    linguagens C.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+
+      <section id="interest">
+        <div class="card1">
+          <h2 class="title">Tecnologias que pretendo estudar</h2>
+          <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide cubo">
+                <img
+                  class="imgicons"
+                  src="assets/icons/4375017_js_logo_node_icon.svg"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide cubo">
+                <img
+                  class="imgicons"
+                  src="assets/icons/4375050_logo_python_icon.svg"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide cubo">
+                <img
+                  class="imgicons"
+                  src="assets/icons/3069652_angular_angular js_circle_js_programming_icon.svg"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide cubo">
+                <img
+                  class="imgicons"
+                  src="assets/icons/1174949_js_react js_logo_react_react native_icon.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <p>
+              Estas são as tecnologias em que tenho interesse de estuda-las
+              conforme for me aprimorando como desenvolvedor.
+            </p>
+          </div>
+        </div>
+
+        <div class="card grid" data-anime="top">
+          <div class="whatbtn" data-anime="top">
+            <a
+              href="https://wa.me/5519997441168?text=Ola%20vi%20seu%20portfólio%20podemos%20conversar?"
+              class="button" target="_blank"
+              ><i class="icon-whatsapp_icon"></i>Whatsapp</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <a class="back-to-top" href="#navigation"><i class="icon-chevrons-up"></i></a>
+
+    <footer id="footer">
+      <div class="footer grid">
+        <a href="#" class="logo-footer">&copy Roger.<span>Webdev</span> 2021</a>
+      </div>
+    </footer>
+    
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
